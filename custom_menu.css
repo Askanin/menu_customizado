@@ -17,16 +17,6 @@ BLUE   linear-gradient(90deg, #253785 21.87%, #1892D1 100%)
   background-origin: border-box;
   background-clip: content-box, border-box;
   
-  
-  
-  
-  /*border:3px solid transparent;
-  /*border-color:black;
-  /*border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
-  background-image: linear-gradient(90deg, #7A2180 16.67%, #E40276 95.31%);
-        -webkit-background-clip: text;
-        color: transparent;
-  border-radius: 10px;*/
 }
 
 
@@ -37,12 +27,11 @@ BLUE   linear-gradient(90deg, #253785 21.87%, #1892D1 100%)
 }
 
 .select-selected {
- /* background-color: white;*/
- 
-  
+ /* background-color: white;  - retirei porque deixava a caixa pontuda, afetando o design arredonando do menu*/
 }
 
 /*style the arrow inside the select element:*/
+/* Preciso descobrir como colocar uma figura de seta!!!*/
 .select-selected:after {
     position: absolute;
   content: "";
